@@ -57,4 +57,4 @@ Instructions for installing and running the project code will be provided here o
 • **Week 7:** Final predictions and submission to Kaggle
 
 ## License
-This project is licensed under the MIT License. See [LICENSE](link-to-license-file) for more details.
+This project is licensed under the MIT License. See [LICENSE]([link-to-license-file](https://github.com/umutcalikkasap/YZV311_2425_150210721_150210336/blob/main/LICENSE)) for more details.
