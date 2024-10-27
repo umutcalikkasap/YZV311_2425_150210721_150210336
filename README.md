@@ -16,7 +16,7 @@ This project aims to develop a predictive model for a major e-commerce platform 
 * [License](#license)
 
 ## Proposal
-In this project, we aim to develop a predictive analytics system for a leading global e-commerce platform to improve customer experience by forecasting customer repurchase behavior. The platform seeks to provide timely recommendations for customers to restock frequently purchased household and consumable products. Our goal is to predict not only which products a customer is likely to repurchase but also the specific week when they will need to replenish their stock. For a detailed description of the project objectives, dataset, candidate models, and our evaluation plan, please refer to the [Project Proposal](link-to-proposal-file).
+In this project, we aim to develop a predictive analytics system for a leading global e-commerce platform to improve customer experience by forecasting customer repurchase behavior. The platform seeks to provide timely recommendations for customers to restock frequently purchased household and consumable products. Our goal is to predict not only which products a customer is likely to repurchase but also the specific week when they will need to replenish their stock. For a detailed description of the project objectives, dataset, candidate models, and our evaluation plan, please refer to the [Project Proposal]([link-to-proposal-file](https://github.com/umutcalikkasap/YZV311_2425_150210721_150210336/blob/main/Proposal.md)).
 
 ## Dataset
 The dataset provided consists of four CSV files:
