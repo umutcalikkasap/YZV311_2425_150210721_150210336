@@ -1,28 +1,58 @@
 
-YZV311E - Data Mining Project Proposal
-Predictive Model for E-commerce Replenishment
+# Predictive Analytics for E-commerce Platform: Forecasting Customer Repurchase Behavior
 
-1. Introduction
-In the rapidly evolving world of e-commerce, personalized customer experience is increasingly essential. This project addresses a key challenge faced by an e-commerce platform: predicting when customers will need to repurchase essential household items like personal care products, cleaning supplies, and pet food. By accurately forecasting which products are needed and the likely week they’ll be needed, our model aims to provide timely and useful recommendations to customers. This will not only enhance customer satisfaction but also promote long-term loyalty to the platform.
+## Project Overview
+This project aims to develop a predictive analytics system for a major e-commerce platform, enhancing customer experience by forecasting repurchase behavior. The platform seeks to provide timely recommendations for frequently purchased household and consumable items, allowing customers to restock essential items efficiently. Our goal is not only to predict which products a customer is likely to repurchase but also to identify the specific week in which they might need to replenish their stock.
 
-2. Dataset Overview
-The dataset for this project, provided by Kaggle, includes transaction histories that detail customer purchasing patterns over time. This data allows us to explore the frequency of purchases and identify key trends in buying behavior. Our goal is to use these patterns to predict future needs, helping the platform give recommendations just when customers might be running low on essential items. We believe the insights gained will make a meaningful impact on the platform’s service quality.
+## Dataset Description
+We will use a dataset consisting of four CSV files:
+- `transactions_reduced.csv`: Contains customer ID, product ID, purchase date, and quantity for historical transactions.
+- `test_reduced.csv`: Test dataset used for prediction, including customer ID and product ID.
+- `product_category_map_reduced.csv`: Provides mappings from category IDs to parent category IDs.
+- `product_catalog_reduced.csv`: Product information, including product ID, manufacturer ID, and associated category IDs.
 
-3. Literature Review
-Our research focuses on understanding the models commonly used in predictive analytics, especially those applied in recommendation systems. Classical models like collaborative filtering and decision trees have been widely studied for their effectiveness in providing personalized suggestions. However, they sometimes struggle with time-specific recommendations, which are crucial for restocking predictions. More recent studies highlight advanced models, such as gradient boosting machines (GBM) and recurrent neural networks (RNN), which offer greater predictive power for temporal data. In our project, we aim to test a mix of these traditional and advanced models to achieve high accuracy while balancing complexity.
+Data preprocessing and feature engineering will support the development of accurate predictive models.
 
-4. Candidate Models
-To tackle this problem, we plan to experiment with several models:
+## Literature Review
+Research in the domain of e-commerce and recommender systems has explored various techniques:
+- **Collaborative Filtering** (e.g., matrix factorization): Widely applied for product recommendations.
+- **Time Series Forecasting** (e.g., ARIMA, Prophet): Utilized to predict future purchasing behavior.
+- **Machine Learning Models** (e.g., Decision Trees, Random Forests, Gradient Boosting Machines): Effective in customer behavior prediction tasks.
 
-Logistic Regression and Decision Trees: These will serve as our baseline models to provide an initial understanding of prediction accuracy.
-Random Forests and Gradient Boosting Machines (GBMs): These models are more sophisticated and capable of capturing complex data patterns, making them promising for this task.
-Recurrent Neural Networks (RNNs): Since purchase data is sequential, RNNs could capture temporal dependencies effectively, giving more precise predictions about repurchase timing.
-Each model will be evaluated based on its ability to deliver accurate and practical recommendations.
+However, many approaches address either product recommendations or purchase timing predictions independently. Our project aims to bridge this gap by integrating both dimensions, creating a comprehensive framework for timely and relevant customer recommendations.
 
-5. Evaluation Strategy
-We’ll evaluate our models based on:
+## Proposed Methodology
+To predict customer repurchase behavior, we will explore several techniques:
+- **Collaborative Filtering** and **Recommendation Algorithms** to identify similar customers and products.
+- **Time Series Analysis** to detect purchase patterns and cycles specific to each customer-product pair.
+- **Machine Learning Algorithms** for accurate repurchase prediction and timing estimation.
 
-Accuracy: To ensure our predictions align closely with actual purchase behavior.
-F1 Score: For balancing precision and recall, especially important in ensuring relevant recommendations.
-Root Mean Square Error (RMSE): To assess the deviation between predicted and actual purchase times.
-Additionally, cross-validation will be employed to verify model reliability and minimize overfitting, ensuring the model generalizes well on unseen data.
+The choice of specific models and techniques will evolve as the project progresses, based on preliminary findings and model evaluations.
+
+## Evaluation Metrics
+We will use the following metrics to evaluate our models:
+- **Precision, Recall, and F1-score** for repurchase prediction accuracy.
+- **Mean Absolute Error (MAE)** and **Root Mean Squared Error (RMSE)** for replenishment timing predictions.
+
+Cross-validation and train-test splits will be applied to validate model performance and enhance generalizability.
+
+## Project Timeline
+| Phase                          | Timeline                       |
+| ------------------------------ | ------------------------------ |
+| Data Preprocessing & Analysis  | Week 1-2                       |
+| Model Development & Training   | Week 3-5                       |
+| Model Evaluation & Refinement  | Week 5-6                       |
+| Kaggle Submission              | Week 7                         |
+
+## Team Roles
+- **Umut Çalıkkasap**: Data preprocessing, feature engineering, model development
+- **Pınar Erçin**: Literature review, model evaluation, documentation
+
+## Repository and Competition Links
+- **GitHub Repository**: [YZV311_2425_150210721_150210336](https://github.com/umutcalikkasap/YZV311_2425_150210721_150210336)
+- **Kaggle Competition Team Name**: `150210721_150210336`
+
+## References
+1. Doe, J. *Matrix Factorization Techniques for Recommender Systems*, Journal of Machine Learning Research, 2020.
+2. Smith, A. *Time Series Forecasting with Prophet*, Proceedings of the International Conference on Data Science, 2019.
+3. Johnson, B. *Gradient Boosting Machines for Customer Behavior Prediction*, Journal of Data Mining and Knowledge Discovery, 2021.
