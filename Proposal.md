@@ -44,13 +44,10 @@ Cross-validation and train-test splits will be applied to validate model perform
 | Model Evaluation & Refinement  | Week 5-6                       |
 | Kaggle Submission              | Week 7                         |
 
-## Team Roles
-- **Umut Çalıkkasap**: Data preprocessing, feature engineering, model development
-- **Pınar Erçin**: Literature review, model evaluation, documentation
 
 ## Repository and Competition Links
-- **GitHub Repository**: [YZV311_2425_150210721_150210336](https://github.com/umutcalikkasap/YZV311_2425_150210721_150210336)
-- **Kaggle Competition Team Name**: `150210721_150210336`
+- **GitHub Repository**: [YZV311_2425_150210721_150210336](https://github.com/umutcalikkasap/YZV311_2425_150210721)
+- **Kaggle Competition Team Name**: `150210721`
 
 ## References
 1. Doe, J. *Matrix Factorization Techniques for Recommender Systems*, Journal of Machine Learning Research, 2020.
