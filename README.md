@@ -29,7 +29,7 @@ The transaction dataset spans a specific time range and includes a large number 
 
 ## Methodology
 We will explore a range of machine learning models, including:
-- **Logistic Regression and Decision Trees**: For baseline performance.
+- Support Vector Machines (SVMs): Effective in handling high-dimensional spaces and suited for both linear and non-linear classification problems.
 - **Random Forests and Gradient Boosting Machines (GBMs)**: To capture complex relationships.
 - **Recurrent Neural Networks (RNNs)**: For sequential pattern recognition, suited for time-dependent purchase prediction.
 
