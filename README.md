@@ -46,8 +46,8 @@ Cross-validation will be used to ensure robustness and mitigate overfitting. We 
 ## Installation and Usage
 Instructions for installing and running the project code will be provided here once the project is underway.
 
-## Team
-- **Umut Çalıkkasap**: Focused on data preprocessing, literature review, and exploratory analysis, handling model development, tuning, and evaluation.
+## Pipeline Summary
+Literature review, focused on data preprocessing, exploratory analysis, handling model development, tuning, and evaluation.
 
 ## Timeline
 • **Week 1-2:** Data preprocessing and exploratory analysis
